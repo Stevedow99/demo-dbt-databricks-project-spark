@@ -68,6 +68,11 @@ models:
       aggregates:
         +materialized: table
         +schema: aggregate_tables
+    samples:
+      incremental:
+        +enabled: false
+
+
 
 clean-targets:
     - logs
