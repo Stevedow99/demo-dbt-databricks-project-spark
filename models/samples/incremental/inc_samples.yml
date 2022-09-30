@@ -1,0 +1,9 @@
+version: 2
+
+
+sources:
+  - name: sample_data
+    description: sample data
+    schema: steve_d_raw_data
+    tables:
+      - name: sample_incremental_table
