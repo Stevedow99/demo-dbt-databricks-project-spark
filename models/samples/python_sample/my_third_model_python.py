@@ -4,6 +4,9 @@ from pyspark.sql.functions import lit
 
 def model(dbt, session):
 
+    # setting configuration
+    dbt.config(materialized="table")
+
     # DataFrame representing an upstream model
     upstream_model = dbt.ref("my_second_model")
 
