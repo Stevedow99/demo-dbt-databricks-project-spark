@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: my_fourth_model__python
+    description: a sample python model
+    docs:
+      node_color: '#FFBF00'
